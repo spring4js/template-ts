@@ -1,7 +1,9 @@
 {
   "name": "@spring4js/template-ts",
-  "version": "1.0.3",
-  "main": "./lib/index.js",
+  "version": "1.0.0",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
   "scripts": {
     "build": "rimraf ./lib && tsc -b",
     "test": "jest",
