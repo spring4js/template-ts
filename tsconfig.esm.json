@@ -5,6 +5,7 @@
     "module": "ESNext",
     "outDir": "./lib/esm",
     "composite": true, 
-    "declaration": true 
+    "declaration": true ,
+    "noEmit": false
   }
 }
