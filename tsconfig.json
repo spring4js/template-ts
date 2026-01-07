@@ -15,7 +15,7 @@
     "noEmit": true,
     "paths": {
       "calc/*": [
-        "./src/calc/*"
+        "calc/*"
       ]
     },
     "plugins": [
