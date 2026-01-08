@@ -9,6 +9,6 @@ module.exports = {
   ],
   collectCoverage: true, // 统计覆盖率
   coverageDirectory: 'coverage',
-  collectCoverageFrom: ['src/python/*.ts', 'src/python/biz/*.ts', 'src/python/walker/*.ts'],
+  collectCoverageFrom: ['src/**/*.ts'],
   coverageReporters: ['lcov', 'text', 'html'],
 }
